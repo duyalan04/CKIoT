@@ -1,0 +1,10 @@
+{
+  "displayName": "SmartHomeController",
+  "defaultLanguageCode": "vi",
+  "supportedLanguageCodes": ["en"],
+  "timeZone": "Asia/Ho_Chi_Minh",
+  "description": "Smart Home Controller với ESP32, LED và Fan",
+  "enableLogging": true,
+  "matchMode": "MATCH_MODE_HYBRID",
+  "classificationThreshold": 0.3
+}

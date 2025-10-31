@@ -1,0 +1,40 @@
+{
+  "name": "TurnOnAll",
+  "displayName": "TurnOnAll",
+  "priority": 500000,
+  "webhookState": "WEBHOOK_STATE_ENABLED",
+  "trainingPhrases": [
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "bật tất cả" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "bật hết" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "turn on all devices" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "turn everything on" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "bật tất cả thiết bị" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "mở hết" }]
+    }
+  ],
+  "action": "turn_on_all",
+  "messages": [
+    {
+      "text": {
+        "text": ["Đang bật tất cả thiết bị..."]
+      }
+    }
+  ]
+}

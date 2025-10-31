@@ -1,0 +1,66 @@
+{
+  "name": "TurnOnFan",
+  "displayName": "TurnOnFan",
+  "priority": 500000,
+  "webhookState": "WEBHOOK_STATE_ENABLED",
+  "trainingPhrases": [
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "bật quạt" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "mở quạt" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "turn on the fan" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "turn on fan" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [
+        { "text": "bật quạt tốc độ " },
+        { "text": "200", "entityType": "@sys.number", "alias": "speed" }
+      ]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [
+        { "text": "mở quạt mức " },
+        { "text": "150", "entityType": "@sys.number", "alias": "speed" }
+      ]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "cho tôi bật quạt" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "làm ơn bật quạt" }]
+    }
+  ],
+  "parameters": [
+    {
+      "name": "speed",
+      "displayName": "speed",
+      "value": "$speed",
+      "entityTypeDisplayName": "@sys.number",
+      "mandatory": false,
+      "prompts": [
+        "Bạn muốn tốc độ quạt là bao nhiêu? (0-255)"
+      ]
+    }
+  ],
+  "action": "turn_on_fan",
+  "messages": [
+    {
+      "text": {
+        "text": ["Đang bật quạt..."]
+      }
+    }
+  ]
+}

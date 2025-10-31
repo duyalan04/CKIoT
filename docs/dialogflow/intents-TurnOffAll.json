@@ -1,0 +1,40 @@
+{
+  "name": "TurnOffAll",
+  "displayName": "TurnOffAll",
+  "priority": 500000,
+  "webhookState": "WEBHOOK_STATE_ENABLED",
+  "trainingPhrases": [
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "tắt tất cả" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "tắt hết" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "turn off all devices" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "turn everything off" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "tắt tất cả thiết bị" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "tắt hết đi" }]
+    }
+  ],
+  "action": "turn_off_all",
+  "messages": [
+    {
+      "text": {
+        "text": ["Đang tắt tất cả thiết bị..."]
+      }
+    }
+  ]
+}

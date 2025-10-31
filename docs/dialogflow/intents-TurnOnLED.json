@@ -1,0 +1,48 @@
+{
+  "name": "TurnOnLED",
+  "displayName": "TurnOnLED",
+  "priority": 500000,
+  "webhookState": "WEBHOOK_STATE_ENABLED",
+  "trainingPhrases": [
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "bật đèn" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "mở đèn" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "turn on the light" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "turn on led" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "bật đèn lên" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "cho tôi bật đèn" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "làm ơn bật đèn" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "light on" }]
+    }
+  ],
+  "action": "turn_on_led",
+  "messages": [
+    {
+      "text": {
+        "text": ["Đang bật đèn LED..."]
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "TurnOffLED",
+  "displayName": "TurnOffLED",
+  "priority": 500000,
+  "webhookState": "WEBHOOK_STATE_ENABLED",
+  "trainingPhrases": [
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "tắt đèn" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "turn off the light" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "turn off led" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "tắt đèn đi" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "cho tôi tắt đèn" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "làm ơn tắt đèn" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "light off" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "đèn tắt" }]
+    }
+  ],
+  "action": "turn_off_led",
+  "messages": [
+    {
+      "text": {
+        "text": ["Đang tắt đèn LED..."]
+      }
+    }
+  ]
+}

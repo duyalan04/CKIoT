@@ -1,0 +1,44 @@
+{
+  "name": "TurnOffFan",
+  "displayName": "TurnOffFan",
+  "priority": 500000,
+  "webhookState": "WEBHOOK_STATE_ENABLED",
+  "trainingPhrases": [
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "tắt quạt" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "turn off the fan" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "turn off fan" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "tắt quạt đi" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "cho tôi tắt quạt" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "làm ơn tắt quạt" }]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [{ "text": "fan off" }]
+    }
+  ],
+  "action": "turn_off_fan",
+  "messages": [
+    {
+      "text": {
+        "text": ["Đang tắt quạt..."]
+      }
+    }
+  ]
+}

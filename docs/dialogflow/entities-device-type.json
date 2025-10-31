@@ -1,0 +1,31 @@
+{
+  "name": "device-type",
+  "displayName": "device-type",
+  "kind": "KIND_MAP",
+  "autoExpansionMode": "AUTO_EXPANSION_MODE_DEFAULT",
+  "entities": [
+    {
+      "value": "LED",
+      "synonyms": [
+        "LED",
+        "led",
+        "đèn",
+        "den",
+        "light",
+        "lamp",
+        "đèn LED"
+      ]
+    },
+    {
+      "value": "Fan",
+      "synonyms": [
+        "Fan",
+        "fan",
+        "quạt",
+        "quat",
+        "quạt gió",
+        "quat gio"
+      ]
+    }
+  ]
+}

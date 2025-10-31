@@ -1,0 +1,73 @@
+{
+  "name": "GetDeviceStatus",
+  "displayName": "GetDeviceStatus",
+  "priority": 500000,
+  "webhookState": "WEBHOOK_STATE_ENABLED",
+  "trainingPhrases": [
+    {
+      "type": "EXAMPLE",
+      "parts": [
+        { "text": "trạng thái " },
+        { "text": "đèn", "entityType": "@device-type", "alias": "device" }
+      ]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [
+        { "text": "đèn", "entityType": "@device-type", "alias": "device" },
+        { "text": " đang bật hay tắt" }
+      ]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [
+        { "text": "kiểm tra " },
+        { "text": "quạt", "entityType": "@device-type", "alias": "device" }
+      ]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [
+        { "text": "status of " },
+        { "text": "led", "entityType": "@device-type", "alias": "device" }
+      ]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [
+        { "text": "is the " },
+        { "text": "fan", "entityType": "@device-type", "alias": "device" },
+        { "text": " on" }
+      ]
+    },
+    {
+      "type": "EXAMPLE",
+      "parts": [
+        { "text": "cho tôi biết " },
+        { "text": "đèn", "entityType": "@device-type", "alias": "device" },
+        { "text": " bật chưa" }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "name": "device",
+      "displayName": "device",
+      "value": "$device",
+      "entityTypeDisplayName": "@device-type",
+      "mandatory": true,
+      "prompts": [
+        "Bạn muốn kiểm tra thiết bị nào?",
+        "Đèn hay quạt?"
+      ]
+    }
+  ],
+  "action": "get_device_status",
+  "messages": [
+    {
+      "text": {
+        "text": ["Để tôi kiểm tra..."]
+      }
+    }
+  ]
+}
