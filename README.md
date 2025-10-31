@@ -1124,16 +1124,12 @@ Contributions, issues, and feature requests are welcome!
 
 ---
 
-## 📝 License
 
-MIT License - see LICENSE file for details
-
----
 
 ## 👨‍💻 Tác giả
 
 **TDM University**  
-Year 4, Semester 1 - IoT Project  
+Nhóm 5 - IoT Project
 Course: Internet of Things (IoT)
 
 ---
@@ -1148,14 +1144,6 @@ Course: Internet of Things (IoT)
 
 ---
 
-## 📞 Support
-
-Nếu gặp vấn đề, vui lòng:
-1. Kiểm tra [Troubleshooting](#-troubleshooting)
-2. Xem các file README trong từng thư mục con
-3. Mở issue trên GitHub
-
----
 
 ## 🎉 Demo
 
